@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body>
+<main>
+<h1>Search for National Parks</h1>
+<form class="searchParks">
+<label for= "searchState">Enter a State or Multiple States</label>
+<input type="text" id= "searchState" name= "searchState" class= "userInputState" required>
+<label for= "numOfResults">Number of Results?</label>
+<input type=number id="numOfResults" name= "numOfResults" class= "userInputNumResults" value="10">
+<button type= "submit">Submit</button>
+</form>
+<section class="hidden">
+  <h2> Search Reuslts</h2>
+  <ul class="searchResults">
+
+  </ul>
+</section>
+</main>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src= "index.js"></script>
+</body>
+</html>
